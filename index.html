@@ -10,27 +10,35 @@
   </head>
   <body>
     <main class="container">
-      <form action="">
-          <label for=""></label>
-          <input type="text" class="country-1">
-          <label for=""></label>
-          <input type="text" class="country-2">
+        <h1>Country Finder</h1>
+        <div class="container-option">
+            <div class="select-option">
+                <p>Select an option: <a href="#" class="triangle"><img src="images/caret-down-solid.svg" alt=""></a></p>
+            </div>
+            <ul class="dropdown">
+                <li>
+                    <a href="#" class="1-country">Search a country</a>
+                </li>
+                <li>
+                    <a href="#" class="two-countries">Compare two countries</a>
+                </li>
+                <li>
+                    <a href="#" class="coordinates">Search by coordinates (Latitude/Longitude)</a>
+                </li>
+                <li>
+                    <a href="#" class="where-am-i">Where am I?</a>
+                </li>
+            </ul>
+            
+        </div>
+      <form class="form-invisible form-two-countries" >
+          <input type="text" class="country-1" placeholder="Country 1">
+          <input type="text" class="country-2" placeholder="Country 2">
           <button class="btn-search">Search</button>
       </form>
       
       <div class="countries">
-        
-       <!--  <article class="country">
-          <img class="country__img" src="" />
-          <div class="country__data">
-            <h3 class="country__name">COUNTRY</h3>
-            <h4 class="country__region">REGION</h4>
-            <p class="country__row"><span>👫</span>POP people</p>
-            <p class="country__row"><span>🗣️</span>LANG</p>
-            <p class="country__row"><span>💰</span>CUR</p>
-          </div>
-        </article> -->
-       
+              
       </div>
       <!-- <button class="btn-country">Where am I?</button> -->
       <div class="images"></div>
